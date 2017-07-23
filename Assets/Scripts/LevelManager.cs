@@ -9,7 +9,11 @@ public class LevelManager : MonoBehaviour {
 	public float autoLoadNextLevelAfter;//Time before new level loads
 	
 	void Start (){
-		Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+		if(autoLoadNextLevelAfter == 0){
+			Debug.Log ("Level Auto Disabled");
+		}else{
+			Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+		}
 	}
 
 	public void LoadLevel(string levelName){

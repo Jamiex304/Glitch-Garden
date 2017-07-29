@@ -6,8 +6,6 @@ public class MusicManager : MonoBehaviour {
 	public AudioClip[] levelMusicChangeArray;//Array Size is Public change the number depending on scenes
 	
 	private AudioSource audioSource;
-	
-	
 	// Use this for initialization
 	void Awake(){
 		DontDestroyOnLoad(gameObject);

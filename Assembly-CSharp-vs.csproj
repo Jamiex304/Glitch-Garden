@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\MusicManager.cs" />
      <Compile Include="Assets\Scripts\OptionsMaster.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefsMaster.cs" />
+     <Compile Include="Assets\Scripts\SetUserPrefs.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Unity/Old Unity 2/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
  </Reference>

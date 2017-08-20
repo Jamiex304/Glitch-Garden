@@ -3,13 +3,22 @@ using System.Collections;
 
 public class GraveStone : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	//GraveStone Controller
+	private Animator animator;
 	
+	void Start(){
+		animator = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Update(){
+		
+	}
 	
+	void OnTriggerStay2D(Collider2D collider){
+		Attackers attackers = collider.gameObject.GetComponent<Attackers>();
+		
+		if(attackers){
+			animator.SetTrigger("underAttackTrigger");
+		}
 	}
 }

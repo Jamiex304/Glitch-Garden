@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LoseCollider.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StopButton.cs">
     <Files>
-      <File FileName="Assets\Scripts\StarDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DefendersScript\Defenders.cs" Line="7" Column="27" />
-      <File FileName="Assets\Scripts\DefendersScript\DefenderSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LoseCollider.cs" Line="14" Column="38" />
+      <File FileName="Assets\Scripts\StopButton.cs" Line="13" Column="40" />
+      <File FileName="Assets\Scripts\LoseCollider.cs" Line="6" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
